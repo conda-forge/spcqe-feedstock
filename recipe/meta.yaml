@@ -27,12 +27,13 @@ requirements:
     - scikit-learn
     - tqdm
     - pybind11
+    - sig-decomp
 
 test:
   imports:
     - spcqe
-  # commands:
-  #   - pip check # until cvxpy issue #2447 is resolved
+  commands:
+    - pip check
   requires:
     - pip
 
