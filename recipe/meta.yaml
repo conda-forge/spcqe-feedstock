@@ -1,5 +1,5 @@
 {% set name = "spcqe" %}
-{% set version = "0.0.1a0" %}
+{% set version = "0.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/spcqe-{{ version }}.tar.gz
-  sha256: c9300c2274641c58886dfba464031c6e163ea2da87c0542b2dca7805a1448186
+  sha256: 0af506a02b913f6b91750bc0be3ab7855e79b122c81ce4d09368a858f82f3744
 
 build:
   noarch: python
