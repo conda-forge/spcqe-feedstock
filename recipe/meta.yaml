@@ -1,13 +1,13 @@
 {% set name = "spcqe" %}
-{% set version = "0.0.3" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/spcqe-{{ version }}.tar.gz
-  sha256: 0af506a02b913f6b91750bc0be3ab7855e79b122c81ce4d09368a858f82f3744
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/spcqe-{{ version }}.tar.gz
+  sha256: 323e30a97e129adc522242650c6e30e7d9c1e96bef10d73ff1b5aafb313a1d7c
 
 build:
   noarch: python
